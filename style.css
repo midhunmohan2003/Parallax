@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: rgba(255, 255, 255, .4);
+}
+
+.parallax-1{
+    background: url(./wallpaperflare.com_wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-inner{
+    padding: 10% 0;
+}
+
+h2{
+    font-size: 32px;
+    color: cornflowerblue ;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px0 10px;
+}
+
+p{
+    font-size: 16px;
+    color: darkslategrey;
+    text-align: justify;
+    line-height: 20px;
+    margin: 0 50px 40px;
+}
+
+.parallax-2{
+    background: url(./pier-8091934_1920.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-3{
+    background: url(./tree-736885_1920.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3){
+    margin: 40px 50px;
+}
